@@ -32,7 +32,7 @@ const Layout: NextPage<LayoutProps> = ({ children }) => {
       <div className={styles.pageContent}>{children}</div>
 
       <footer className={styles.footer}>
-        <p>Copyright {currentYear} - Joanna's Travel blog</p>
+        <p>Copyright {currentYear} - Joanna&apos;s Travel blog</p>
       </footer>
     </div>
   );
