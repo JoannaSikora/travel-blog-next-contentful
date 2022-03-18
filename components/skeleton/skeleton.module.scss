@@ -1,0 +1,21 @@
+@import 'styles/colors';
+
+.skeleton {
+    margin: 20px auto;
+
+    >  div {
+        background: $light-gray;
+        border-radius: 4px;
+        margin: 20px 0;
+    }
+}
+
+.sHeader {
+    padding: 1.5rem 0;
+    max-width: 500px;
+}
+
+.sContent {
+    padding: 1rem 0;
+    max-width: 1000px;
+}

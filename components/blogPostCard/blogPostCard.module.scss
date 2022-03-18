@@ -1,0 +1,47 @@
+@import 'styles/box-shadows';
+@import 'styles/colors';
+
+.card {
+    box-shadow: $box-shadow-standard;
+    display: flex;
+    border: 1px solid $dark-gray;
+    margin-bottom: 60px;
+    height: 40rem;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.image {
+    flex: 1.5;
+    position: relative;
+}
+
+.info {
+    flex: 1;
+    padding: 2.5rem;
+
+    h4 {
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+.actions {
+    margin-top: 20px;
+
+    a {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $dark-gray;
+        text-decoration: underline;
+        font-style: italic;
+    }
+}

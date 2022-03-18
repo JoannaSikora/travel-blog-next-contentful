@@ -1,0 +1,17 @@
+@import "styles/colors";
+
+.container {
+  height: 15rem;
+  z-index: 1000;
+  margin-top: -12rem;
+
+  svg {
+    width: 100%;
+    height: 100%;
+
+    path {
+      stroke: none;
+      fill: $white;
+    }
+  }
+}
